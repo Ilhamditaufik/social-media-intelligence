@@ -1,0 +1,9 @@
+﻿pandas
+numpy
+pyarrow
+scikit-learn
+requests
+python-dotenv
+langdetect
+emoji
+matplotlib

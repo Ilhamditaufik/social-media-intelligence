@@ -1,0 +1,35 @@
+﻿.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+
+outputs/*
+!outputs/.gitkeep
+reports/*
+!reports/.gitkeep
+
+models/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/
+
+# Keep the small demo dataset required for local demonstrations
+!data/external/multilingual_sentiment_sample.csv
